@@ -13,3 +13,14 @@ describe('Chain Of Responsability', () => {
 
     }); 
 });
+describe('Chain Of Responsability', () => {
+ 
+    it('Aprobación del Crédito: Lider de Ejecutivo', () => {
+        
+        let banco = new Banco();
+
+        expect(banco.solicitudPrestamo(25000)).to.equal(2);
+
+
+    }); 
+});
