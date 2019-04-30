@@ -30,3 +30,16 @@ describe('Bridge', () => {
 
     }); 
 });
+
+describe('Bridge', () => {
+ 
+    it('Test Auto Diesel', () => {
+        
+       let motor = new Diesel();
+       let auto = new Auto(motor,5);
+
+       expect(auto.Acelerar(10)).to.equal("Inyectando 10 ml. de Diesel.Realizada la explosión del Diesel.");
+
+
+    }); 
+});
