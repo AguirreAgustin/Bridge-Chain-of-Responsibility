@@ -24,6 +24,7 @@ export class LiderDeEjecutivo implements IAprobador {
         
 
     }
+    
 
     public setNext(aprobador: IAprobador): void{
 

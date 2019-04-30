@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 
-import { Banco } from '../Banco';
+import { Banco } from '../ChainOfResponsability/Banco';
 
 describe('Chain Of Responsability', () => {
  
