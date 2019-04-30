@@ -18,3 +18,15 @@ describe('Bridge', () => {
 
     }); 
 });
+describe('Bridge', () => {
+ 
+    it('Test Camioneta Gasoil', () => {
+        
+       let motor = new Gasoil();
+       let camioneta = new Camioneta(motor,4);
+
+       expect(camioneta.Acelerar(10)).to.equal("Inyectando 10 ml. de Gasoil.Realizada la explosión del Gasoil.");
+
+
+    }); 
+});
