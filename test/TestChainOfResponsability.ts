@@ -24,3 +24,14 @@ describe('Chain Of Responsability', () => {
 
     }); 
 });
+describe('Chain Of Responsability', () => {
+ 
+    it('Aprobación del Crédito: Gerente', () => {
+        
+        let banco = new Banco();
+
+        expect(banco.solicitudPrestamo(75000)).to.equal(3);
+
+
+    }); 
+});
