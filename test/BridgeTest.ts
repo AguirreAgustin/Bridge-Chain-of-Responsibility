@@ -67,3 +67,15 @@ describe('Bridge', () => {
 
     }); 
 });
+describe('Bridge', () => {
+ 
+    it('Test Auto Mostrar Caracteristicas', () => {
+        
+       let motor = new Diesel();
+       let auto = new Auto(motor,5);
+
+       expect(auto.MostrarCaracteristicas()).to.equal("Vehiculo de tipo Auto con 5 puertas.");
+
+
+    }); 
+});

@@ -13,7 +13,7 @@ export class Auto  extends  Vehiculo{
     }
 
     private setCantidadPuertas(cantidadPuertas: number){
-        this.cantidadPuertas = this.cantidadPuertas;
+        this.cantidadPuertas = cantidadPuertas;
     }
     public getCantidadPuertas(): number{
         return this.cantidadPuertas;
