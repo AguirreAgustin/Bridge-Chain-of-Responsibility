@@ -55,3 +55,15 @@ describe('Bridge', () => {
 
     }); 
 });
+describe('Bridge', () => {
+ 
+    it('Test Camioneta Mostrar Caracteristicas', () => {
+        
+       let motor = new Diesel();
+       let camioneta = new Camioneta(motor,100);
+
+       expect(camioneta.MostrarCaracteristicas()).to.equal("Vehiculo de tipo Camioneta con un maletero con una capacidad de 100 litros.");
+
+
+    }); 
+});
